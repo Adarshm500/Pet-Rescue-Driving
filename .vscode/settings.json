@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Pet rescue.sln"
+    "dotnet.defaultSolution": "Pet-Rescue-Driving.sln"
 }
