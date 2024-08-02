@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TruckController : MonoBehaviour
+public class Driver : MonoBehaviour
 {
     [SerializeField] float steerSpeed = 300f;
      [SerializeField] float moveSpeed = 20f; 
