@@ -16,7 +16,6 @@ public class Rescue : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other) {
         if ((other.gameObject.tag == "Dog") && (dogsInTruck < 2))
         {
-            Debug.Log("dog picked up");
             if (dogsInTruck == 0)
             {
                 dog1 = other.gameObject;
